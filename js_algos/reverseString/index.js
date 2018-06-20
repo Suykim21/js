@@ -16,5 +16,5 @@ function reverseTwo(str) {
 // Method #3 - Reduce Array Helper
 function reverseThree(str) {
   // reduce((accumulator, currentValue) => currentValue + accumulator, initialValue))
-  str.split('').reduce((reversed, char) =>  char + reversed, ''); // accumulator starts at index 0 and curr at index 1s
+  return str.split('').reduce((reversed, char) =>  char + reversed, ''); // accumulator starts at index 0 and curr at index 1
 }
